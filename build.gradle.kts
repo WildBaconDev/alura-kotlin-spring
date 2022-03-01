@@ -25,6 +25,11 @@ dependencies {
 	runtimeOnly("com.h2database:h2")
 	implementation("org.flywaydb:flyway-core")
 	implementation("org.springframework.boot:spring-boot-starter-cache")
+	implementation("org.springframework.boot:spring-boot-starter-security")
+//	implementation("io.swagger.core.v3:swagger-annotations:2.1.12")
+	implementation("io.jsonwebtoken:jjwt:0.9.1")
+
+
 
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
